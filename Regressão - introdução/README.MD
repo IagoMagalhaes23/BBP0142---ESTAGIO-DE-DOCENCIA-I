@@ -1,3 +1,3 @@
-https://www.kaggle.com/datasets/greysonmb/2022-world-cup-stats
-https://www.kaggle.com/datasets/tejpal123/apple-quality-analysis-dataset
-https://www.kaggle.com/datasets/datascientist97/university-students-marks-sheet
+- - Link dataset Apple Quality utilizado no notebook 01: https://www.kaggle.com/datasets/tejpal123/apple-quality-analysis-dataset
+- Link dataset World Cup utilizado no notebook 02: https://www.kaggle.com/datasets/greysonmb/2022-world-cup-stats
+- Link dataset Steel utilizado no notebook 03: https://www.kaggle.com/datasets/nimapourmoradi/steel-dataset
