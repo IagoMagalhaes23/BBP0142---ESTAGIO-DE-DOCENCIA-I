@@ -3,7 +3,14 @@
 **Aluno:** Iago Magalhães <br>
 **Professor:** Iális 
 
-# Objetivo
+# Bibliotecas
+- TensorFlow
+- PyTorch
+- Keras
+- Scikit Learning
+- Pandas
+- Matplotlib
+- Numpy
 
 # Atividades
 
