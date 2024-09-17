@@ -1,0 +1,58 @@
+<Pagina1>:
+    id: pagina1
+    name: "pagina1"
+    MDTopAppBar:
+        id: tooBarPag1
+        title: "Supervisório"
+        md_bg_color: app.theme_cls.primary_dark
+        left_action_items: [["menu", lambda x: x]]
+        right_action_items: [["clock", lambda x: x]]
+        pos_hint: {'top': 1}
+    Image:
+        size_hint_y: .40
+        source: 'assets/img/serial.png'
+        pos_hint: {'top': 1}
+    MDTextField:
+        id: txtPort
+        hint_text: "Porta Serial"
+        helper_text: "Digite a porta serial"
+        icon_left: "door-open"
+        size_hint_x: .55
+        pos_hint: {'center_x': 0.5, 'center_y': 0.52}
+    MDTextField:
+        id: txtBaud
+        hint_text: "Baud Rate"
+        helper_text: "Digite a taxa de transmissão"
+        icon_left: "clock-fast"
+        size_hint_x: .55
+        pos_hint: {'center_x': 0.5, 'center_y': 0.38}
+    MDRaisedButton:
+        id: btnAbrir
+        text: "Abrir"
+        size_hint_x: .25
+        pos_hint: {'center_x': 0.35, 'center_y': 0.25}
+        md_bg_color: app.theme_cls.accent_dark
+        # on_press: root.abrirPorta()
+        on_release: root.manager.current = 'pagina2'
+    MDRaisedButton:
+        id: btnFechar
+        text: "Fechar"
+        size_hint_x: .25
+        pos_hint: {'center_x': 0.65, 'center_y': 0.25}
+        md_bg_color: app.theme_cls.accent_dark
+
+<Pagina2>:
+    id: pagina2
+    name: "pagina2"
+    MDTopAppBar:
+        id: tooBarPag2
+        title: "Supervisório"
+        md_bg_color: app.theme_cls.primary_dark
+        left_action_items: [["arrow-left-circle", lambda x: root.retornar()]]
+        right_action_items: [["clock", lambda x: x]]
+        pos_hint: {'top': 1}
+    MDBoxLayout:
+        id: boxGraf
+        md_bg_color: 0,0,5,.5
+        size_hint_y: .4
+        pos_hint: {'center_x': 0.5, 'center_y': 0.7}
