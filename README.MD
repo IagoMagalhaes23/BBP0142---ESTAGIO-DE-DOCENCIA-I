@@ -12,7 +12,14 @@
 - Matplotlib
 - Numpy
 
-# Atividades
+# Algoritmos
+- Regressão Linear
+- Regressão Múltipla
+- Regressão Polinomial
+- KNN
+- Multi Layer Perceptron
+- Support Vector Machines
+- Data Apps
 
 # Referências
 - []()
