@@ -3,6 +3,8 @@
 **Aluno:** Iago Magalhães <br>
 **Professor:** Iális Cavalcante de Paula Júnior
 
+# Apresentação
+
 # Bibliotecas
 - TensorFlow
 - PyTorch
